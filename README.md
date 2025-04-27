@@ -1,4 +1,4 @@
 
 # DataBook_Theme
-![Untitled (42)](https://github.com/user-attachments/assets/9097043d-3b4c-4502-806e-fa920bcad773)
+![Untitled (43)](https://github.com/user-attachments/assets/6b7cdaf7-e97c-4b10-a179-b2970af4e5d2)
 Open Source WordPress Theme that will be accepted for any project idea.
