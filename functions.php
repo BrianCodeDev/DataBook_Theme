@@ -22,9 +22,12 @@ function databook_theme_setup() {
 }
 add_action( 'after_setup_theme', 'databook_theme_setup' );
 
-function databook_enqueue_scripts() {
+<?php
+function databook_theme_enqueue_styles() {
     wp_enqueue_style( 'databook-style', get_stylesheet_uri() );
+    wp_enqueue_script( 'tailwindcss', 'https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4', array(), null, true );
 }
-add_action( 'wp_enqueue_scripts', 'databook_enqueue_scripts' );
+
+add_action( 'wp_enqueue_scripts', 'databook_theme_enqueue_styles' );
 
 ?>
